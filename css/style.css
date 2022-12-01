@@ -1,27 +1,42 @@
 
-/* Propietats */
+/* Propietats Colors */
 :root {
-    --primary: #9fd3c7;
-    --secondary: #385170;
-    --terciary: #142d4c;
+    --primer: #fda403;
+    --segon: #e8751a;
+    --tercer: #c51350;
 }
 
-header {
-    align-items: center;
-}
 
 body {
-    background-color: #9fd3c7;
+    background-color: var(--segon) !important;
+}
+
+header, footer {
+    background-color: var(--primer) !important;
+    text-align: center;
+    font-family: Georgia, serif;
 }
 
 
-#MainContent {
-    background-color: #385170;
-    position: relative;
-    ;
+nav {
+    background-color: var(--tercer) !important;
 }
 
-#Content {
-    background-color: #142d4f;
+#MainContent > div, #Content > div{
+    font-family: Georgia, serif;
+    margin: 20px;
 }
+
+#MainContent, #Content {
+    background-color: var(--tercer) !important;
+}
+
+img {
+    width: 30px;
+}
+
+.container {
+    margin-top: 10px;
+}
+
 
