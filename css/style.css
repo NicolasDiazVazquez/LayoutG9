@@ -1,11 +1,27 @@
+
+/* Propietats */
 :root {
-    --primary: #222831;
-    --secondary: #393e46;
-    --terciary: #f96d00;
+    --primary: #9fd3c7;
+    --secondary: #385170;
+    --terciary: #142d4c;
+}
+
+header {
+    align-items: center;
 }
 
 body {
-    background-color: var(--primary);
-    color: var(--secondary);
-    }
+    background-color: #9fd3c7;
+}
+
+
+#MainContent {
+    background-color: #385170;
+    position: relative;
+    ;
+}
+
+#Content {
+    background-color: #142d4f;
+}
 
