@@ -42,5 +42,46 @@ body.innerHTML = `
 
 
 
+//Footer custom
+var body = document.getElementById("footer");
+body.innerHTML = `
+
+    <footer class="text-center text-lg-start border border-5 border-warning ">  
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+
+            <div class="row mt-3">
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Creadors -->
+                    <h4 class="text-uppercase fw-bold">Creadors</h4>
+                    <p>
+                    <a href="#!" class="text-reset">Edgar Medina</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Nico Diaz</a>
+                    </p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- GitHub -->
+                    <h4 class="text-uppercase fw-bold">Repository</h4>
+                    
+                    <a href="https://github.com/NicolasDiazVazquez/LayoutG9" class="text-reset"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">GitHub</a>
+                
+                </div>
+            </div>
+        </section>
+            <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2022 Copyright
+                </div>
+                <div style="background-color: rgba(0, 0, 0, 0.05);">
+                    <a href="#"><img src="../imatges/arrow.PNG"alt="img"></a> 
+                </div>
+    </footer>
+`;
+
+
 
 
