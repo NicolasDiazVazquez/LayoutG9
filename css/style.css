@@ -1,10 +1,11 @@
 
 /* Propietats Colors */
 :root {
-    --primer: #fda403;
-    --segon: #e8751a;
-    --tercer: #c51350;
-}
+    --tercer:#d4ed9d;
+    --segon:#64a97b; 
+    --primer: #cdd582;
+    
+    }
 
 
 body {
@@ -24,6 +25,7 @@ footer {
 
 nav {
     background-color: var(--tercer) !important;
+    top: -7px;
 }
 
 #MainContent > div, #Content > div{
