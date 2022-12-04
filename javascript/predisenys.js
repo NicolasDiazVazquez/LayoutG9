@@ -1,5 +1,5 @@
 
-//Navegació
+//Navegació principal
 var body = document.getElementById("nav");
 body.innerHTML = `
     <!-- Menu de navegació -->
@@ -11,18 +11,23 @@ body.innerHTML = `
                 <div class="collapse navbar-collapse justify-content-center" id="menuNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="llenguatgemarques.html"><img src="imatges/1-square.svg" alt="1"></a>
+                        <a class="nav-link" href="pag1/llenguatgemarques1.html"><img src="imatges/1-square.svg" alt="1"></a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href=""><img src="imatges/2-square.svg" alt="2"></a>
+                            <a class="nav-link" href="pag2/llenguatgemarques2.html"><img src="imatges/2-square.svg" alt="2"></a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href=""><img src="imatges/3-square.svg" alt="3"></a>
+                            <a class="nav-link" href="pag3/llenguatgemarques3.html"><img src="imatges/3-square.svg" alt="3"></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 `;
+
+
+
+
+

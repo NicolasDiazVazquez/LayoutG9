@@ -17,6 +17,10 @@ header, footer {
     font-family: Georgia, serif;
 }
 
+footer {
+    margin: 20px
+}
+
 
 nav {
     background-color: var(--tercer) !important;
