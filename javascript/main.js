@@ -58,7 +58,7 @@ body.innerHTML = `
         </section>
             <!-- Copyright -->
                 <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                    © 2022 Copyright
+                    <img src="imatges/copy.svg">2022 Copyright
                 </div>
                 <div style="background-color: rgba(0, 0, 0, 0.05);">
                     <a href="#"><img src="imatges/arrow.PNG"alt="img"></a> 
