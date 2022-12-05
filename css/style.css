@@ -42,6 +42,18 @@ img {
     width: 30px;
 }
 
+.lorem{
+    margin-top: 20px;
+    margin-right: 20px; 
+    height: 150px;
+    width: 150px;
+  }
+  
+#lorem2 {
+    padding: 10px;
+}
+
+
 .container {
     margin-top: 10px;
 }
